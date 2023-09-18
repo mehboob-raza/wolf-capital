@@ -61,6 +61,7 @@ const BattlesLegacy = () => {
             gap={2}
             sx={{
               flexDirection: { md: "row", sm: "row", xs: "column" },
+              // flexWrap: "wrap",
             }}
           >
             {legacyData.map((data, i) => {
@@ -71,7 +72,7 @@ const BattlesLegacy = () => {
                     background: `url(${frame76})`,
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "100% 100%",
-                    width: "35%",
+                    width: "100%",
                     p: 4,
                   }}
                 >

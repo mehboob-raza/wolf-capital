@@ -20,18 +20,14 @@ const AdminDrawer = () => {
       }}
     >
       {/* <Route path="/" element={<LandingPage />} /> */}
-      <Box
-        sx={{
-          display: { md: "flex", sm: "flex", xs: "none" },
-        }}
-      >
+      <Box>
         <SideBar>
           <Routes>
             <Route path="/" element={<Dashboard />} />
-            <Route path="/staking" element={<Staking />} />
+            <Route path="/stake" element={<Staking />} />
             <Route path="/wolfpacks" element={<Wolfpacks />} />
-            <Route path="/battles" element={<Battles />} />
-            <Route path="/nft" element={<AlphaaNFT />} />
+            <Route path="/weekly-battles" element={<Battles />} />
+            <Route path="/nfts" element={<AlphaaNFT />} />
           </Routes>
         </SideBar>
       </Box>

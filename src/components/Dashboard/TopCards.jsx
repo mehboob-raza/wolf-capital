@@ -23,7 +23,14 @@ const TopCards = () => {
   return (
     <Box>
       <Container maxWidth="lg">
-        <Box display="flex" gap={2}>
+        <Box
+          display="flex"
+          gap={2}
+          sx={{
+            justifyContent: { md: "start", sm: "start", xs: "center" },
+            alignItems: "center",
+          }}
+        >
           {cardsData.map((data, i) => {
             return (
               <Box
@@ -36,7 +43,7 @@ const TopCards = () => {
                   display: "flex",
                   borderRadius: 2,
                   flexDirection: "column",
-                  p: 1,
+                  // p: 1,
                   justifyContent: "center",
                   flexWrap: "wrap",
                   alignItems: "center",

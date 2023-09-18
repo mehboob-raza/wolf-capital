@@ -2,14 +2,15 @@ import React from "react";
 import YourWolfPack from "./YourWolfPack";
 import AllWolfPack from "./AllWolfPack";
 import TopCards from "../Dashboard/TopCards";
+import { Container } from "@mui/material";
 
 const Wolfpacks = () => {
   return (
-    <div style={{ color: "#fff" }}>
+    <Container maxWidth="lg">
       <TopCards />
       <YourWolfPack />
       <AllWolfPack />
-    </div>
+    </Container>
   );
 };
 

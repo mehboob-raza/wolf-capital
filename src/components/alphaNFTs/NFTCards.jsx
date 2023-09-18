@@ -1,5 +1,4 @@
 import { Box, Container, Grid, Slider, Typography } from "@mui/material";
-import React from "react";
 import ALPHANFT from "../../assets/ALPHANFT.png";
 import BETANFT from "../../assets/BETANFT.png";
 import OMEGANFT from "../../assets/OMEGANFT.png";

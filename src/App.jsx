@@ -3,7 +3,7 @@ import "./App.css";
 import LandingPage from "./LandingPage/index";
 import { Routes, Route } from "react-router-dom";
 import AdminDrawer from "./components/AdminDrawer";
-import MobDrawer from "./components/MobDrawer";
+// import MobDrawer from "./components/MobDrawer";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/dapp/*" element={<AdminDrawer />} />
-        <Route path="/dapp/*" element={<MobDrawer />} />
+        {/* <Route path="/dapp/*" element={<MobDrawer />} /> */}
 
         {/* <SideBar>
           <Route path="/dashboard" element={<Dashboard />} />

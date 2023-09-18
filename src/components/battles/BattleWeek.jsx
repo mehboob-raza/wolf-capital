@@ -67,7 +67,15 @@ const BattleWeek = () => {
           >
             {battleWeek.map((data, i) => {
               return (
-                <Box key={i} display="flex" alignItems="center">
+                <Box
+                  key={i}
+                  display="flex"
+                  alignItems="center"
+                  sx={{
+                    flexWrap: "wrap",
+                    justifyContent: "center",
+                  }}
+                >
                   <Box component="img" src={data.img} />
                   <Box color="#fff">
                     <Typography> {data.h} </Typography>
